@@ -9,10 +9,11 @@
 ***
 ### 3
 Отредактируйте **connect.php**
-```$servername = "127.0.0.1";
-$username = "root";
-$password = "";
-$dbname = "guestform";```
+
+```$servername = "127.0.0.1";```
+```$username = "root";```
+```$password = "";```
+```$dbname = "guestform";```
 ***
 ### 4
 Запустите **index.php**
