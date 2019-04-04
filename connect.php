@@ -1,11 +1,11 @@
 <?php
 
-$servername = "GuestBook";
+$servername = "127.0.0.1";
 $username = "root";
 $password = "";
 $dbname = "guestform";
 
-$mysqli = new mysqli('127.0.0.1',$username , $password, $dbname);
+$mysqli = new mysqli($servername,$username , $password, $dbname);
 if ($mysqli->connect_errno) {
    
     echo "Извините, возникла проблема на сайте";
